@@ -34,6 +34,6 @@ Achieved **0.9834 AUC** on held-out patient cohorts.
 
 ## Currently
 
-- Competing in [Kaggle Playground S6E5](https://www.kaggle.com/competitions/playground-series-s6e5) — F1 pit stop prediction
+- Competing in [Kaggle Playground S6E5](https://www.kaggle.com/competitions/playground-series-s6e5) — F1 pit stop prediction · **Public LB: 0.94393** (LightGBM + Optuna, GroupKFold CV)
 - Seeking data science / ML internships for Summer/Fall 2026
 - `dbandy134@outlook.com`
