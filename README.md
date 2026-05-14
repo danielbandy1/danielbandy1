@@ -1,6 +1,6 @@
 # Hi, I'm Daniel Bandy
 
-BS Mathematics & Data Science @ University of Kentucky (4.0 GPA, Lewis Honors College, exp. 2027)  
+BS Mathematics & Data Science @ University of Kentucky (3.66 GPA, Lewis Honors College, exp. 2027)  
 Research intern @ [ZED Lab, University of Chicago](https://github.com/zeroknowledgediscovery) — clinical AI on EHR data
 
 I build ML systems that work on real data. Currently competing on Kaggle and looking for data science internships.
