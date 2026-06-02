@@ -1,39 +1,47 @@
-# Hi, I'm Daniel Bandy
+# Daniel Bandy
 
-BS Mathematics & Data Science @ University of Kentucky (3.66 GPA, Lewis Honors College, exp. 2027)  
-Research intern @ [ZED Lab, University of Chicago](https://github.com/zeroknowledgediscovery) — clinical AI on EHR data
+**Machine Learning Engineer | BS/MS Data Science, University of Kentucky | Lewis Honors College**
 
-I build ML systems that work on real data. Currently competing on Kaggle and looking for data science internships.
+I build applied machine learning systems that turn messy data into deployable, measurable products. My current focus is data science, healthcare analytics, fraud detection, forecasting, and production ML APIs.
 
----
+- BS/MS Data Science, University of Kentucky, graduating December 2026
+- GPA: 3.66
+- Lewis Honors College
+- NLP research intern, ZED Lab, University of Kentucky Linguistics department
+- Seeking data science internships for Summer/Fall 2026
+- Kaggle Playground Series S6E5: top 5%, F1 pit stop prediction, 0.94593 leaderboard score
 
-## Projects
+## Featured Projects
 
-### [churn-prediction](https://github.com/danielbandy1/churn-prediction)
-End-to-end churn prediction pipeline with MLflow experiment tracking and probability calibration.  
-`Python` `LightGBM` `scikit-learn` `MLflow` `Optuna`
+| Project | What it shows | Metrics / stack |
+|---|---|---|
+| [hospital-readmission](https://github.com/danielbandy1/hospital-readmission) | 30-day hospital readmission risk scoring on 101,766 patient encounters | XGBoost ROC-AUC 0.727, AUPRC 0.285, 74 engineered features, SHAP, FastAPI |
+| [churn-prediction](https://github.com/danielbandy1/churn-prediction) | End-to-end customer churn prediction with explanations and monitoring | XGBoost ROC-AUC 0.7802, recall 0.6604, SHAP, drift monitoring, FastAPI, MLflow |
+| [fraud-detection](https://github.com/danielbandy1/fraud-detection) | Real-time fraud detection workflow on PaySim transactions | LightGBM AUPRC 0.880, AUROC 0.989, 97.6% recall, SHAP, Streamlit |
+| [energy-forecast](https://github.com/danielbandy1/energy-forecast) | Time-series energy demand forecasting on AEP hourly load data | LightGBM + Optuna, 0.71% test MAPE, 144.6 MW RMSE, FastAPI, Streamlit |
+| [recommender-system](https://github.com/danielbandy1/recommender-system) | Collaborative filtering on MovieLens 100K | SVD RMSE 0.935, UBCF RMSE 0.936, FastAPI recommendation endpoint |
+| [nlp-classifier](https://github.com/danielbandy1/nlp-classifier) | DistilBERT fine-tuning for AG News topic classification | DistilBERT-base, target ~94% test accuracy per current README, FastAPI, Streamlit |
+| [causal-ab-test](https://github.com/danielbandy1/causal-ab-test) | Decision-quality causal analysis of a website redesign experiment | 298,306 raw rows, 290,585 cleaned sessions, z-test, Bayesian inference, PSM, CUPED |
 
-### [causal-ab-test](https://github.com/danielbandy1/causal-ab-test)
-Causal inference framework for A/B test analysis.  
-`Python` `pandas` `statsmodels`
+## Systems Work
 
-### ZED Lab — Clinical Risk Scoring *(private)*
-Built a QNet-based EHR risk scoring system for disease prediction from ICD/Rx/procedure codes.  
-Custom Python library (`lhm_suite`) for temporal medical code encoding and glyph extraction.  
-Achieved **0.9834 AUC** on held-out patient cohorts.  
-`Python` `quasinet` `SLURM` `HPC`
+- **Trading bot:** Alpaca paper trading system using SMA/RSI logic, LumiBot, and walk-forward validation. Recent QQQ walk-forward: mean OOS Sharpe 0.278, mean OOS CAGR 7.8%, 6/8 positive-CAGR folds.
+- **NEXIS:** Multi-agent AI system where Claude and GPT-4o style execution agents coordinate tasks on a Linux server, with mailbox-style delegation, persistent logs, service automation, and autonomous task execution.
+- **Kaggle S6E5:** F1 pit stop prediction pipeline with grouped validation, LightGBM, XGBoost/CatBoost experiments, feature engineering around tire life, stint history, field behavior, and pit tendencies.
 
----
+## Technical Stack
 
-## Stack
+**Languages and data:** Python, SQL, Bash/Linux, Pandas, NumPy
 
-`Python` `LightGBM` `XGBoost` `scikit-learn` `MLflow` `Optuna` `pandas` `numpy`  
-`C++` `Unix/Linux` `Git`
+**Machine learning:** PyTorch, scikit-learn, XGBoost, LightGBM, SHAP, Optuna
 
----
+**Serving and systems:** FastAPI, Docker, Git, LumiBot, Linux services
 
-## Currently
+## What I Am Looking For
 
-- Competing in [Kaggle Playground S6E5](https://www.kaggle.com/competitions/playground-series-s6e5) — F1 pit stop prediction · **Public LB: 0.94393** (LightGBM + Optuna, GroupKFold CV)
-- Seeking data science / ML internships for Summer/Fall 2026
-- `dbandy134@outlook.com`
+I am looking for Summer/Fall 2026 data science, machine learning, analytics engineering, and applied AI internships where I can work on real systems, not just notebooks. I am especially interested in healthcare, finance, insurance, logistics, forecasting, fraud/risk, and operational analytics.
+
+## Contact
+
+- GitHub: [github.com/danielbandy1](https://github.com/danielbandy1)
+- Email: dbandy134@outlook.com
