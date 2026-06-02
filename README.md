@@ -15,6 +15,8 @@ I build applied machine learning systems that turn messy data into deployable, m
 
 | Project | What it shows | Metrics / stack |
 |---|---|---|
+| [kaggle-s6e6-stellar-class](https://github.com/danielbandy1/kaggle-s6e6-stellar-class) | Stellar classification (GALAXY/QSO/STAR) — color-index features, Optuna tuning, LGB+XGB blend | LB 0.957, 10-fold CV, 577K rows, astrophysics feature engineering |
+| [clinical-icd10-nlp](https://github.com/danielbandy1/clinical-icd10-nlp) | ClinicalBERT fine-tuned on medical transcriptions for specialty classification | 10-class NLP, Bio_ClinicalBERT, HuggingFace Trainer, MCC cluster |
 | [hospital-readmission](https://github.com/danielbandy1/hospital-readmission) | 30-day hospital readmission risk scoring on 101,766 patient encounters | XGBoost ROC-AUC 0.727, AUPRC 0.285, 74 engineered features, SHAP, FastAPI |
 | [churn-prediction](https://github.com/danielbandy1/churn-prediction) | End-to-end customer churn prediction with explanations and monitoring | XGBoost ROC-AUC 0.7802, recall 0.6604, SHAP, drift monitoring, FastAPI, MLflow |
 | [fraud-detection](https://github.com/danielbandy1/fraud-detection) | Real-time fraud detection workflow on PaySim transactions | LightGBM AUPRC 0.880, AUROC 0.989, 97.6% recall, SHAP, Streamlit |
@@ -33,7 +35,7 @@ I build applied machine learning systems that turn messy data into deployable, m
 
 **Languages and data:** Python, SQL, Bash/Linux, Pandas, NumPy
 
-**Machine learning:** PyTorch, scikit-learn, XGBoost, LightGBM, SHAP, Optuna
+**Machine learning:** PyTorch, scikit-learn, XGBoost, LightGBM, SHAP, Optuna, HuggingFace Transformers
 
 **Serving and systems:** FastAPI, Docker, Git, LumiBot, Linux services
 
