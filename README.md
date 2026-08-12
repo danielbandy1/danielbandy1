@@ -28,7 +28,7 @@ I build applied machine learning systems that turn messy data into deployable, m
 ## Systems Work
 
 - **Trading bot:** Alpaca paper trading system using SMA/RSI logic, LumiBot, and walk-forward validation. Recent QQQ walk-forward: mean OOS Sharpe 0.278, mean OOS CAGR 7.8%, 6/8 positive-CAGR folds.
-- **NEXIS:** Multi-agent AI system where Claude and GPT-4o style execution agents coordinate tasks on a Linux server, with mailbox-style delegation, persistent logs, service automation, and autonomous task execution.
+- **NEXUS:** Multi-agent AI system where Claude and GPT-4o style execution agents coordinate tasks on a Linux server, with mailbox-style delegation, persistent logs, service automation, and autonomous task execution.
 - **Kaggle S6E5:** F1 pit stop prediction pipeline with grouped validation, LightGBM, XGBoost/CatBoost experiments, feature engineering around tire life, stint history, field behavior, and pit tendencies.
 
 ## Technical Stack
