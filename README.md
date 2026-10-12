@@ -1,15 +1,15 @@
 # Daniel Bandy
 
-**Machine Learning Engineer | BS/MS Data Science, University of Kentucky | Lewis Honors College**
+**Data science student | B.S. Mathematics + B.S. Statistics & Data Science, University of Kentucky | Lewis Honors College**
 
 I build applied machine learning systems that turn messy data into deployable, measurable products. My current focus is data science, healthcare analytics, fraud detection, forecasting, and production ML APIs.
 
-- BS/MS Data Science, University of Kentucky, graduating December 2026
+- B.S. Mathematics and B.S. Statistics & Data Science (minor in Computer Science), University of Kentucky, expected 2028; Accelerated Master's Pathway toward an M.S. in Data Science
 - GPA: 3.66
 - Lewis Honors College
-- NLP research intern, ZED Lab, University of Kentucky Linguistics department
-- Seeking data science internships for Summer/Fall 2026
-- Kaggle Playground Series S6E5: top 5%, F1 pit stop prediction, 0.94593 leaderboard score
+- Research intern, Zero Knowledge Discovery (ZED) Lab, University of Kentucky (summer 2025): clinical ML on EHR data, 0.9834 AUC held-out
+- Seeking summer 2027 data science / analytics internships and remote part-time data work
+- Kaggle Playground Series S6E5: top 5%, F1 pit stop prediction, best public leaderboard score 0.94593
 
 ## Featured Projects
 
@@ -17,7 +17,7 @@ I build applied machine learning systems that turn messy data into deployable, m
 |---|---|---|
 | [kaggle-s6e6-stellar-class](https://github.com/danielbandy1/kaggle-s6e6-stellar-class) | Stellar classification (GALAXY/QSO/STAR) — color-index features, Optuna tuning, LGB+XGB blend | LB 0.957, 10-fold CV, 577K rows, astrophysics feature engineering |
 | [clinical-icd10-nlp](https://github.com/danielbandy1/clinical-icd10-nlp) | ClinicalBERT fine-tuned on medical transcriptions for specialty classification | 10-class NLP, Bio_ClinicalBERT, HuggingFace Trainer, MCC cluster |
-| [hospital-readmission](https://github.com/danielbandy1/hospital-readmission) | 30-day hospital readmission risk scoring on 101,766 patient encounters | XGBoost ROC-AUC 0.727, AUPRC 0.285, 74 engineered features, SHAP, FastAPI |
+| [hospital-readmission](https://github.com/danielbandy1/hospital-readmission) | 30-day hospital readmission risk scoring on 101,766 patient encounters | LightGBM ROC-AUC 0.680, AUPRC 0.230, 74 engineered features, SHAP, FastAPI |
 | [churn-prediction](https://github.com/danielbandy1/churn-prediction) | End-to-end customer churn prediction with explanations and monitoring | XGBoost ROC-AUC 0.7802, recall 0.6604, SHAP, drift monitoring, FastAPI, MLflow |
 | [fraud-detection](https://github.com/danielbandy1/fraud-detection) | Real-time fraud detection workflow on PaySim transactions | LightGBM AUPRC 0.880, AUROC 0.989, 97.6% recall, SHAP, Streamlit |
 | [energy-forecast](https://github.com/danielbandy1/energy-forecast) | Time-series energy demand forecasting on AEP hourly load data | LightGBM + Optuna, 0.71% test MAPE, 144.6 MW RMSE, FastAPI, Streamlit |
@@ -41,7 +41,7 @@ I build applied machine learning systems that turn messy data into deployable, m
 
 ## What I Am Looking For
 
-I am looking for Summer/Fall 2026 data science, machine learning, analytics engineering, and applied AI internships where I can work on real systems, not just notebooks. I am especially interested in healthcare, finance, insurance, logistics, forecasting, fraud/risk, and operational analytics.
+I am looking for summer 2027 data science, machine learning, analytics engineering, and applied AI internships where I can work on real systems, not just notebooks. I am especially interested in healthcare, finance, insurance, logistics, forecasting, fraud/risk, and operational analytics.
 
 ## Contact
 
