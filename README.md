@@ -17,13 +17,14 @@ I build applied machine learning systems that turn messy data into deployable, m
 |---|---|---|
 | [kaggle-s6e6-stellar-class](https://github.com/danielbandy1/kaggle-s6e6-stellar-class) | Stellar classification (GALAXY/QSO/STAR) — color-index features, Optuna tuning, LGB+XGB blend | LB 0.957, 10-fold CV, 577K rows, astrophysics feature engineering |
 | [clinical-icd10-nlp](https://github.com/danielbandy1/clinical-icd10-nlp) | ClinicalBERT fine-tuned on medical transcriptions for specialty classification | 10-class NLP, Bio_ClinicalBERT, HuggingFace Trainer, MCC cluster |
-| [hospital-readmission](https://github.com/danielbandy1/hospital-readmission) | 30-day hospital readmission risk scoring on 101,766 patient encounters | Local audit branch: 74 features; patient-disjoint LightGBM baseline ROC-AUC 0.6717 / AP 0.2088; not yet pushed |
+| [hospital-readmission](https://github.com/danielbandy1/hospital-readmission) | 30-day hospital readmission risk scoring on 101,766 patient encounters | Local audit: 74 features; patient-disjoint LightGBM baseline ROC-AUC 0.6717 / AP 0.2088 on 20,153 holdout |
 | [churn-prediction](https://github.com/danielbandy1/churn-prediction) | End-to-end customer churn prediction with explanations and monitoring | XGBoost ROC-AUC 0.7802, recall 0.6604, SHAP, drift monitoring, FastAPI, MLflow |
-| [fraud-detection](https://github.com/danielbandy1/fraud-detection) | Real-time fraud detection workflow on PaySim transactions | Historical artifact AUPRC 0.880 / AUROC 0.989; future-history leakage repaired locally; performance re-evaluation required |
+| [fraud-detection](https://github.com/danielbandy1/fraud-detection) | Strict earlier-step histories; full-source forward-time holdout (steps >600) | Test AP 0.8895 (95% CI: [0.819, 0.947]), AUROC 0.9946, 88.6% precision / 98.8% recall at validation threshold |
 | [energy-forecast](https://github.com/danielbandy1/energy-forecast) | Time-series energy demand forecasting on AEP hourly load data | LightGBM + Optuna, 0.71% test MAPE, 144.6 MW RMSE, FastAPI, Streamlit |
 | [recommender-system](https://github.com/danielbandy1/recommender-system) | Collaborative filtering on MovieLens 100K | SVD RMSE 0.935, UBCF RMSE 0.936, FastAPI recommendation endpoint |
 | [nlp-classifier](https://github.com/danielbandy1/nlp-classifier) | DistilBERT fine-tuning for AG News topic classification | DistilBERT-base, target ~94% test accuracy per current README, FastAPI, Streamlit |
-| [causal-ab-test](https://github.com/danielbandy1/causal-ab-test) | Decision-quality causal analysis of a website redesign experiment | Local audit: 294,478 public raw rows, 290,584 unique users; z-test and Beta-Binomial analysis; no validated CUPED |
+| [causal-ab-test](https://github.com/danielbandy1/causal-ab-test) | Decision-quality causal analysis of a website redesign experiment | 290,584 unique users; SRM check p=0.947, z-test p=0.190, Bayesian P(T>C)=9.53% |
+| [bikeshare-sql](https://github.com/danielbandy1/bikeshare-sql) | Relational demand analytics on 17,379 hourly records (3.29M rentals) | SQLite, window functions (LAG, DENSE_RANK, rolling averages), CTEs, dual Python verification |
 
 ## Systems Work
 
